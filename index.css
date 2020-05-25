@@ -84,3 +84,72 @@ body {
   margin-left: 40%;
   margin-top: 5%;
 }
+
+@media (max-width: 750px) {
+  .table {
+    background-color: #2f4f4f;
+    width: 493px;
+    height: 548px;
+    border-radius: 5px;
+  }
+
+  .main {
+    width: 500px;
+    height: 620px;
+    background-color: #080a0a;
+    float: left;
+    margin: auto;
+  }
+  .textviewer {
+    width: 476px;
+    height: 40px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: 160%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  .button {
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    margin-left: 14px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    border-width: 0;
+    outline: none;
+    transition: 0.2s ease-in-out;
+  }
+
+  .cbutton {
+    width: 110%;
+    height: 70px;
+    font-size: 50px;
+    margin: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 10%;
+    border-width: 0;
+    background-color: rgb(22, 22, 22);
+    color: rgb(214, 214, 214);
+    outline: none;
+    transition: 0.2s ease-in-out;
+  }
+
+  .dbutton {
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    margin-left: 216%;
+    cursor: pointer;
+    border-radius: 50%;
+    border-width: 0;
+    background-color: rgb(43, 26, 26);
+    color: rgb(214, 214, 214);
+    outline: none;
+    transition: 0.2s ease-in-out;
+  }
+}
