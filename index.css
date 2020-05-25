@@ -85,7 +85,7 @@ body {
   margin-top: 5%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 375px) {
   .table {
     background-color: #2f4f4f;
     width: 493px;
