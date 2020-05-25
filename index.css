@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c0c0c0;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 6px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  border-width: 0;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #c0c0c0;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+#button {
+  background-color: #708090;
+  color: white;
+}
+.cbutton {
+  width: 110%;
+  height: 50px;
+  font-size: 25px;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 10%;
+  border-width: 0;
+  background-color: rgb(22, 22, 22);
+  color: rgb(214, 214, 214);
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+.dbutton {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin-left: 218%;
+  cursor: pointer;
+  border-radius: 50%;
+  border-width: 0;
+  background-color: rgb(43, 26, 26);
+  color: rgb(214, 214, 214);
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+.textviewer {
+  width: 238px;
+  margin: 5px;
+  font-size: 40;
+  font-weight: 160%;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.table {
+  background-color: #2f4f4f;
+  width: 238px;
+  border-radius: 5px;
+  margin-left: 0.5%;
+}
+
+.main {
+  width: 262px;
+  height: 366px;
+  background-color: #080a0a;
+  margin-left: 40%;
+  margin-top: 5%;
+}
